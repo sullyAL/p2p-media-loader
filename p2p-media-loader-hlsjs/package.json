@@ -1,10 +1,10 @@
 {
-  "name": "p2p-media-loader-hlsjs",
+  "name": "p2p-hls",
   "description": "P2P Media Loader hls.js integration",
-  "version": "0.6.2",
+  "version": "0.0.1",
   "license": "Apache-2.0",
-  "author": "Novage",
-  "homepage": "https://github.com/Novage/p2p-media-loader",
+  "author": "Sully",
+  "homepage": "https://github.com/sullyAL/p2p-media-loader",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "keywords": [
@@ -32,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Novage/p2p-media-loader.git"
+    "url": "https://github.com/sullyAL/p2p-media-loader.git"
   },
   "dependencies": {
     "events": "^3.3.0",
@@ -46,13 +46,17 @@
     "@types/sinon": "^9.0.11",
     "@typescript-eslint/eslint-plugin": "^4.20.0",
     "@typescript-eslint/parser": "^4.20.0",
+    "browser-resolve": "^2.0.0",
     "browserify": "^17.0.0",
+    "buffer": "^6.0.3",
+    "detective": "^5.2.1",
     "eslint": "^7.23.0",
     "eslint-config-prettier": "^8.1.0",
-    "hls.js": "^0.14.17",
+    "hls.js": "^1.2.8",
     "mkdirp": "^1.0.4",
-    "mocha": "^8.3.2",
+    "mocha": "^10.1.0",
     "prettier": "^2.2.1",
+    "process": "^0.11.10",
     "sinon": "^10.0.0",
     "terser": "^5.6.1",
     "ts-loader": "^8.1.0",
